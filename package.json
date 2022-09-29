@@ -1,0 +1,22 @@
+{
+  "name": "tests3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "testing": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@parse/s3-files-adapter": "^1.6.2",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "parse": "^3.4.4",
+    "parse-server": "^5.2.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
